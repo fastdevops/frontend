@@ -197,7 +197,7 @@ const form = reactive({
   port: '3306',
   userName: 'root',
   password: '',
-  dbName: 'gva',
+  dbName: 'coreapi',
   dbPath: ''
 })
 
@@ -212,7 +212,7 @@ const changeDB = (val) => {
         port: '3306',
         userName: 'root',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
       break
@@ -224,7 +224,7 @@ const changeDB = (val) => {
         port: '5432',
         userName: 'postgres',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
       break
@@ -236,7 +236,7 @@ const changeDB = (val) => {
         port: '1521',
         userName: 'oracle',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
       break
@@ -248,7 +248,7 @@ const changeDB = (val) => {
         port: '1433',
         userName: 'mssql',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
       break
@@ -260,7 +260,7 @@ const changeDB = (val) => {
         port: '',
         userName: '',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
       break
@@ -272,7 +272,7 @@ const changeDB = (val) => {
         port: '3306',
         userName: 'root',
         password: '',
-        dbName: 'gva',
+        dbName: 'coreapi',
         dbPath: ''
       })
   }
